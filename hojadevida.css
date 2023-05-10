@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&family=Rubik:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.fondo {
+  background-color: rgb(202, 202, 201);
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 1100px;
+  height: 1150px;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  min-height: 1000px;
+  background-color: rgb(50, 131, 202);
+}
+.left-side {
+  background-color: rgb(37, 37, 37);
+  width: 18rem;
+  height: 1000px;
+  margin-left: 2rem;
+}
+.right-side {
+  background-color: rgb(252, 252, 252);
+  width: 50rem;
+  height: 1000px;
+  margin-right: 2rem;
+}
+.fondo-negro {
+  background-color: rgb(37, 37, 37);
+  border-top-left-radius: 110px;
+  border-bottom-left-radius: 110px;
+  display: flex;
+  align-items: center;
+  width: 62.8rem;
+  height: 220px;
+  position: absolute;
+  margin-top: 2em;
+  margin-left: 2rem;
+}
+.texto-nombre {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+
+  width: 57rem;
+  height: 214px;
+  margin-left: 2px;
+  border-top-left-radius: 110px;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  border-top-right-radius: 110px;
+}
+.imagen {
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  margin-left: 1rem;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+  top: 0;
+  object-fit: cover;
+}
+.nombre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 29rem;
+  height: 214px;
+  margin-left: 6rem;
+}
+.julian {
+  text-align: center;
+  color: rgb(44, 44, 44);
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4rem;
+}
+.desarrollo-web {
+  font-size: 1rem;
+  position: absolute;
+  color: rgb(99, 98, 98);
+  margin-top: 6rem;
+  text-transform: uppercase;
+}
+.perfil {
+  color: rgb(241, 226, 15);
+  margin-top: 8rem;
+  text-transform: uppercase;
+  margin-left: 2rem;
+  font-size: 1rem;
+  top: 0;
+  left: 0;
+}
+.linea-perfil {
+  width: 13.5rem;
+  color: #fff;
+  margin-right: 4rem;
+  margin-left: 2rem;
+  margin-top: 0.2rem;
+}
+.p-perfil {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.5rem;
+  color: #fff;
+  text-align: justify;
+}
+.referencias {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 1rem;
+  color: rgb(241, 226, 15);
+}
+
+.liena-referecias {
+  margin-top: 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #fff;
+}
+.telefono {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+
+  margin-left: 2rem;
+}
+.numero-telefono {
+  margin-top: 1.7rem;
+  margin-left: 5rem;
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  margin-right: 100rem;
+  color: rgb(216, 216, 216);
+}
+.mail {
+  position: absolute;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+.correo-mail {
+  margin-top: 1.7rem;
+  margin-left: 5rem;
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(216, 216, 216);
+}
+.linkedin {
+  position: absolute;
+  width: 1.8rem;
+  height: 1.7rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.perfil-linkedin {
+  margin-top: 1.7rem;
+  margin-left: 5rem;
+  font-size: 0.7rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(216, 216, 216);
+}
+.skills {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 1rem;
+  color: rgb(241, 226, 15);
+}
+.liena-habilidades {
+  margin-top: 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #fff;
+}
+.lista-skils {
+  margin-top: 1rem;
+}
+.li-skills {
+  margin: 0.3rem;
+  margin-left: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.1rem;
+  list-style: none;
+  color: rgb(255, 253, 253);
+}
+.contenedor-habilidades {
+  margin-top: 1rem;
+}
+.box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  justify-content: center;
+
+  margin-left: 2rem;
+}
+.box h4 {
+  text-transform: uppercase;
+  color: rgb(211, 209, 209);
+  font-weight: 500;
+  font-size: 1rem;
+}
+.percent {
+  position: relative;
+  width: 62%;
+  height: 10px;
+  background: #f0f0f0;
+  margin-right: 3rem;
+}
+.porcentaje {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #b4b4b4;
+}
+.idiomas {
+  margin-top: 0.4rem;
+  margin-left: 2rem;
+  font-size: 1rem;
+  color: rgb(241, 226, 15);
+}
+.liena-idiomas {
+  margin-top: 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #fff;
+}
+.contenedor-idiomas {
+  margin-top: 1rem;
+}
+.boxx {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  justify-content: center;
+
+  margin-left: 2rem;
+}
+.boxx h4 {
+  text-transform: uppercase;
+  color: rgb(211, 209, 209);
+  font-weight: 500;
+  font-size: 1rem;
+}
+.percentt {
+  position: relative;
+  width: 62%;
+  height: 10px;
+  background: #fff;
+  margin-right: 3rem;
+}
+.porcentajee {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
+.educacion {
+  color: rgb(44, 44, 44);
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  margin-top: 17rem;
+  margin-left: 2rem;
+  font-size: 1rem;
+}
+.line-educacion {
+  margin-left: 2rem;
+  margin-right: 6rem;
+}
+ul.carreras {
+  margin-left: 20px;
+  margin-top: 1rem;
+}
+
+ul.cursos-carreras {
+  margin-left: 20px;
+  margin-top: 1rem;
+}
+li {
+  font-family: "Poppins", sans-serif;
+  color: rgb(44, 44, 44);
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+.cursos {
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: rgb(44, 44, 44);
+}
+.linea-cursos {
+  margin-top: 0;
+  margin-left: 2rem;
+  margin-right: 6rem;
+}
+.experiencia {
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  color: rgb(44, 44, 44);
+}
+.linea-experiencia {
+  margin-top: 0;
+  margin-left: 2rem;
+  margin-right: 6rem;
+}
+.soporte-sisben {
+  margin-right: 6rem;
+}
+ul.cursos-carreras {
+  margin-left: 20px;
+  margin-top: 1rem;
+}
+ul.titulo-experiencia {
+  margin-left: 20px;
+
+  color: rgb(44, 44, 44);
+}
+.soporte-472 {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+.soporte-alcaldia {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+.titulo-intereses {
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  position: absolute;
+  margin-top: 0.8rem;
+  margin-left: 2rem;
+}
+.linea-intereses {
+  margin-left: 2rem;
+  margin-right: 6rem;
+  margin-top: 3.8rem;
+}
+.guitarra {
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  object-fit: cover;
+}
+.diseño {
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  object-fit: cover;
+}
+.pescar {
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  object-fit: cover;
+}
+.tres-d {
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  object-fit: cover;
+}
+.programar {
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  object-fit: cover;
+}
+.cantar {
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .fondo {
+    flex-direction: column;
+    margin: 1rem;
+    height: 2000px;
+  }
+  .right-side {
+    width: 18rem;
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 600px) {
+  .fondo-negro {
+    width: 220px;
+    border-top-right-radius: 110px;
+    border-bottom-right-radius: 110px;
+  }
+}
+@media (max-width: 600px) {
+  .texto-nombre {
+    width: 215px;
+    border-top-right-radius: 110px;
+    border-bottom-right-radius: 110px;
+  }
+  .nombre {
+    width: 0;
+    height: 0;
+    position: absolute;
+  }
+  .julian {
+    font-size: 0;
+  }
+  .desarrollo-web {
+    font-size: 0;
+    
+    
+  }
+}
+@media (max-width: 600px) {
+  .nombre-media {
+    color: #fff;
+
+    margin-top: 258px;
+    font-size: 1rem;
+    margin-left: 80px;
+    text-transform: uppercase;
+  }
+  .desarrollo-web-media {
+    color: #fff;
+    font-size: 0.6rem;
+    margin-left: 105px;
+  }
+  .perfil {
+    margin-top: 30px;
+    object-fit: cover;
+  }
+  .educacion {
+    margin-top: 1rem;
+  }
+  .line-educacion {
+    width: 14.5rem;
+  }
+  .linea-cursos {
+    width: 14.5rem;
+  }
+  .linea-experiencia {
+    width: 14.5rem;
+  }
+  .linea-intereses {
+    width: 14.5rem;
+  }
+  .soporte-sisben {
+    text-align: justify;
+    margin-right: 2rem;
+  }
+  .instalacion-soporte {
+    text-align: justify;
+    margin-right: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .contenedor-intereses {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .guitarra {
+    margin-left: 2.8rem;
+  }
+}
